@@ -1,0 +1,49 @@
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .movie {
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+
+      .movie img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      .filterButtonsDiv{
+        display: flex;
+        justify-content:center ;
+      }
+      .filtcats{
+        display: flex;
+        justify-content: center;
+      }
+      button{
+        width: fit-content;
+        margin: 3px;
+        border-radius: 5px;
+        padding: 5px;
+        background-color: blueviolet;
+        color: white;
+        font-weight: bold;
+        border: none;
+      }
+      button:hover{
+        cursor: pointer;
+      }
+    .lSpanStyle{
+      display: inline-flex;
+      align-content: center;
+      margin: 5px;
+    }
+    .langStyle{
+      font-weight: bold;
+      margin: 0;
+    }
